@@ -1,0 +1,8 @@
+$:.unshift File.join(File.dirname(__FILE__), "..", "lib")
+
+require "m3u-copy"
+
+playlist = Playlist.new ARGV[0]
+playlist.copy_to_dir ARGV[1]
+
+

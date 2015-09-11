@@ -1,0 +1,2 @@
+<sms protocol="0" address="+79119179944" date="1420877870000" type="1" subject="null" body="Имам-хатыб)))" toa="null" sc_toa="null" service_center="null" read="1" status="-1" locked="0" date_sent="0" readable_date="10.01.2015 11:17:50" contact_name="KОТЕНОК" />
+<sms protocol="0" address="+79119179944" date="1420877830000" type="2" subject="null" body="Чекист, то есть." toa="null" sc_toa="null" service_center="null" read="1" status="-1" locked="0" date_sent="0" readable_date="10.01.2015 11:17:10" contact_name="KОТЕНОК" />

@@ -1,0 +1,10 @@
+desc "Deploys script to " + ENV['LOCAL_RUBYLIB']
+task "install" do
+  install_dir = ENV['LOCAL_RUBYLIB']
+  raise "Environment variable LOCAL_RUBYLIB must be set" unless install_dir
+
+  ruby "setup.rb all --bindir=#{install_dir}/bin --rbdir=#{install_dir}/lib"
+end
+
+task :default => ["install"]
+
